@@ -20,3 +20,15 @@ CTRL + C
 
 ## Project tech stack
 express + typescript + pg sql
+
+## how to run the api
+you can call the api using below curl
+
+curl --location 'https://bitespeed-interview-test.onrender.com/identify' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "lorraine@hillvalley.edu",
+	"phoneNumber": "123"
+}'
+
+URL=https://bitespeed-interview-test.onrender.com/identify
